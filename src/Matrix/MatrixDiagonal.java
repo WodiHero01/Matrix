@@ -18,7 +18,7 @@ public class MatrixDiagonal extends Matrix implements MatrixInvertible{
     public MatrixDiagonal(int row , int col ){
         super(row,col);
         if(row > col){
-            elements = new double[col]; // Attention au if pour la taille (le plus petit elements)
+            elements = new double[col]; // Attention au "if" pour la taille (le plus petit elements)
         }
         else{
             elements = new double[row];
