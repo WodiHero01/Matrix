@@ -12,19 +12,19 @@ public abstract class Matrix {
     protected int row;
     protected int col;
 
-    /**
-     * Champs :
-     * @param row nombre de lignes
-     * @param col nombre de colonnes
-     */
+/**
+ * Champs :
+ * @param row nombre de lignes
+ * @param col nombre de colonnes
+ */
 
 
     public Matrix(int row, int col) {
         this.row = row;
         this.col = col;
-        /**
-         * Constructeur via les dimensions
-         */
+    /**
+     * Constructeur via les dimensions
+     */
         // Ne pas oublier de faire des exceptions : entiers négatifs
     }
 
