@@ -45,9 +45,9 @@ public class MatrixSquare extends MatrixRectangular implements MatrixInvertible{
 
 
     /**
-     * cette méthode renvoie la matrice inversée
+     * Cette méthode renvoie la matrice inversée
      * @return la matrice inversée
-     * @throws InvExp exception car l'inverse est trop complexe à calculer
+     * @throws SquExp exception car l'inverse est trop complexe à calculer
      */
 
     public MatrixSquare getInvert() throws SquExp {

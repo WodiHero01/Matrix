@@ -41,7 +41,7 @@ public class Main {
     System.out.println(mat4.toString());
     MatrixSquare mat5 = new MatrixSquare(3);
     mat5 = mat4.transpose();
-    System.out.println("mat squ traspose"+mat5.toString());
+    System.out.println("mat squ transpose"+mat5.toString());
     try {
         mat4.getInvert();
     }
