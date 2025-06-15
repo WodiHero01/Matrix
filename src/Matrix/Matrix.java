@@ -11,6 +11,7 @@ public abstract class Matrix {
 
     protected int row;
     protected int col;
+    protected char type = 'M'; // M pour Matrix, D pour Diagonal, R pour Rectangular, C pour Carre 
 
 /**
  * Champs :
